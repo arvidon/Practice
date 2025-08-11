@@ -17,3 +17,26 @@ int main() {
 	
 	cout << "Difference = " << z;
 } 
+
+5
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	
+	int s;
+	int v;
+	
+	cin >> s >> v;
+	
+	int z = s % 10;
+	int t = v % 10;
+	
+	int f = z + t;
+	
+	
+	cout << f;
+	
+	
+} 
