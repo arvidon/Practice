@@ -40,3 +40,28 @@ int main() {
 	
 	
 } 
+
+6
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	
+	int k;
+	int sum = 0;
+	
+	cin >> k;
+	
+	int i = k;
+	while ( i > 0 ){
+	    sum += i;
+	    i--;
+	   
+	}
+	
+	cout << sum;
+	
+	
+} 
+
