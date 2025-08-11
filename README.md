@@ -84,4 +84,22 @@ int main() {
     }
 } 
 
+8
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    
+    long k;
+    long m;
+    
+    cin >> k >> m;
+    
+    if((k % m == 0) || (m % k == 0)) {
+        cout << "Multiples";
+    }else{
+        cout << "No Multiples";
+    }
+} 
 
