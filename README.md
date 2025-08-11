@@ -65,3 +65,23 @@ int main() {
 	
 } 
 
+7
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    
+    int k;
+    int m;
+    
+    cin >> k >> m;
+    
+    if(k >= m) {
+        cout << "Yes";
+    }else{
+        cout << "No";
+    }
+} 
+
+
